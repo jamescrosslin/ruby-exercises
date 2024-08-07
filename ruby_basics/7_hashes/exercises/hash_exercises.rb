@@ -31,10 +31,12 @@ end
 
 def favorite_categories(favorite_list)
   # return the keys of favorite_list
+  favorite_list.keys
 end
 
 def favorite_items(favorite_list)
   # return the values of favorite_list
+  favorite_list.values
 end
 
 def merge_favorites(original_list, additional_list)
